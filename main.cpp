@@ -10,7 +10,7 @@
 
 int main()
 {
-    std::ifstream file("test_input.txt"); // Open input file
+    std::ifstream file("test_input2.txt"); // Open input file
 
     if (!file.is_open())
     {
@@ -36,11 +36,11 @@ int main()
         data.push_back(std::stoi(num));
     }
 
-    stdSort(header, data);
-    std::cout << "\n";
+    // stdSort(header, data);
+    // std::cout << "\n";
     quickSelect1(header, data);
-    std::cout << "\n";
-    quickSelect2(header, data);
-    std::cout << "\n";
-    countingSort(header, data);
+    // std::cout << "\n";
+    // quickSelect2(header, data);
+    // std::cout << "\n";
+    // countingSort(header, data);
 }
