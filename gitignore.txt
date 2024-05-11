@@ -1,6 +1,0 @@
-*.txt
-*.exe
-*.o
-Makefile
-.vscode
-main
