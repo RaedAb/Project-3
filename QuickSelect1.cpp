@@ -1,7 +1,8 @@
 #include "QuickSelect1.hpp"
 
 // partition for quickselect1
-int partition1(std::vector<int>& vec, int left, int right) {
+int partition1(std::vector<int>& vec, int left, int right)
+{
     int pivot = vec[right];
     int i = left - 1;
 
@@ -17,8 +18,9 @@ int partition1(std::vector<int>& vec, int left, int right) {
 }
 
 // quick select for quickselect1
-int quickselectHelper1(std::vector<int>& vec, int left, int right, int k){
-    if (right - left + 1 <= 20)
+int quickselectHelper1(std::vector<int>& vec, int left, int right, int k)
+{
+    if (vec.size() <= 20)
     {
         insertionSort(vec, left, right);
     }
@@ -53,3 +55,4 @@ void quickSelect1(const std::string& header, std::vector<int> data)
         "P75: " << p75 << "\n" <<
         "Max: " << max << "\n";
 }
+
