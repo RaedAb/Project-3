@@ -36,11 +36,11 @@ int main()
         data.push_back(std::stoi(num));
     }
 
-    // stdSort(header, data);
-    // std::cout << "\n";
-    // quickSelect1(header, data);
-    // std::cout << "\n";
-    // quickSelect2(header, data);
-    // std::cout << "\n";
+    stdSort(header, data);
+    std::cout << "\n";
+    quickSelect1(header, data);
+    std::cout << "\n";
+    quickSelect2(header, data);
+    std::cout << "\n";
     countingSort(header, data);
 }
