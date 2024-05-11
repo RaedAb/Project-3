@@ -2,6 +2,7 @@
 #define QUICK_SELECT_SORT_1_
 
 #include "QuickSelect.hpp"
+#include "InsertionSort.hpp"
 #include <string>
 #include <vector>
 #include <iostream>
