@@ -56,6 +56,7 @@ void countingSort (const std::string & header, std::vector<int> data)
         }
         if (p75 == 0 && count >= p75_index) {
             p75 = it->first;
+            break; // done
         }
     }
 

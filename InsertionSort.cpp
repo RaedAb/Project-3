@@ -1,7 +1,8 @@
 #include "InsertionSort.hpp"
 
 // Insertion Sort for small partitions
-void insertionSort(std::vector<int>& vec, int left, int right) {
+void insertionSort(std::vector<int>& vec, int left, int right)
+{
     for (int i = left + 1; i <= right; ++i) {
         int key = vec[i];
         int j = i - 1;
